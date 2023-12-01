@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.food_section .box{
+    position: relative;
+    /* margin-top: 25px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+    background:   #222831 25px;
+    color: white
+    ;
+}
+.overlay{
+   background-color: #f1f2f3 ;
+   height: 180px;
+   border-bottom-left-radius: 43px;
+   
+}
+
+.food_section .box .option li{
+    border-radius: 100%;
+    /* background: #ffbe33; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding-bottom: 22%;
+}
+.food_section .box .detail-box p{
+    font-size: 15px;
+}
+.food_section .box .option{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    height: 380px;
+}
+.detail{
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 17px;
+}
+.img-box1{
+    border-bottom-left-radius: 15px;
+}
+ .img-box1 img{
+   margin-left: 30%;
+   padding-top: 5%;
+}
+ .box .img-box1{
+    border-bottom-left-radius: 50px;
+}
+p{
+   display: block; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* padding-top: 15%; */
+}
+.option{
+    padding-top: 2%;
+}
+
+.option li{
+    list-style: none;
+    cursor: pointer;
+    /* margin-left: 60%; */
+   /* padding-bottom: 20%; */
+}
+.option li img{
+/* margin-bottom: 3%; */
+background: #ffbe33;
+    border-radius: 100px;
+}
+.button{
+    /* margin-left: 50%; */
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    /* border-radius: 30px; */
+}
+.heading-center h2{
+    color: #222831;
+    font-size: 40px;
+}
+.fliters-menu{
+    display: flex;
+    justify-content:space-evenly;
+    /* margin-right: 5%; */
+    margin-top: 5%;
+    width: 50%;
+}
+.fliters-menu li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+ .fliters-menu li:nth-child(1){
+    background-color: #222831;
+    height: 40px;
+    width: 18%;
+    color: white;
+    padding-left: 5%;
+    border-radius: 20px;
+    padding-top: 1%;
+ }
+.menu-bar{
+    width: 800px;
+    margin-left: auto;
+}
+.btn-box{
+    background: #ffbe33; 
+    border-radius: 30px;
+    width: 20%;
+    height: 50px;
+    padding-left: 6%;
+    padding-top: 1%;
+}
+.btn-box a{
+     
+    font-size: 20px;
+    text-decoration: none;
+     color: white;
+}
