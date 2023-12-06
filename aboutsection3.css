@@ -1,0 +1,57 @@
+.about {
+    width: 100%;
+    background-color: #222841;
+    padding: 60px 0px;
+  }
+  .about img {
+    width: 60%;
+    margin-left: 200px;
+  }
+.about1 h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.about1 p {
+    color: white;
+}
+.about1 a{
+    text-decoration: none; 
+  }
+.about1 a:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none; 
+ }
+
+.about1 a {
+    text-align: center;
+    background-color: #ffbe33;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 20%;  
+}
+.about1 {
+   margin-top: 75px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+.footer  {
+  width: 100%;
+  background-color: #222841;
+ height: 300px;
+}
+h1  {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.footer1  {
+  color: white;
+}
+.footer2 {
+  color: white;
+}
+
+  
